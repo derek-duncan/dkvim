@@ -21,6 +21,7 @@ filetype plugin on
 "--NerdCommenter--
   let g:NERDCustomDelimiters = { 'sass': 'left': '/*', 'right': '*/' }
   let g:NERDSpaceDelims = 1
+  let g:NERD_sass_alt_style = 1
 
 "--Javascript Libraries--
   let g:used_javascript_libs = 'react, flux, jquery, underscore'
