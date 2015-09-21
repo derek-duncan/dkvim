@@ -1,3 +1,7 @@
+// To install a new plugin, run these commands:
+// -- cd ~/vim/bundle
+// -- git submodule add GIT_PLUGIN_URL
+
 {
   "delimitMate": {
     "git": "https://github.com/Raimondi/delimitMate"
