@@ -18,6 +18,10 @@ filetype plugin on
     autocmd FileType nerdtree set relativenumber
   augroup END
 
+"--NerdCommenter--
+  let g:NERDCustomDelimiters = { 'sass': 'left': '/*', 'right': '*/' }
+  let g:NERDSpaceDelims = 1
+
 "--Javascript Libraries--
   let g:used_javascript_libs = 'react, flux, jquery, underscore'
 
