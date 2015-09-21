@@ -2,6 +2,7 @@ filetype plugin on
 
 "--Delimit Mate--
   let g:delimitMate_expand_cr=1
+
 "--Easymotion--
   "Remove the default mappings
   let g:EasyMotion_do_mapping = 0
@@ -36,6 +37,7 @@ filetype plugin on
   let g:syntastic_check_on_wq = 1
   let g:syntastic_error_symbol = "✗"
   let g:syntastic_warning_symbol = "⚠"
+  let g:syntastic_javascript_checkers = ['jsxhint']
 
 "--Fugitive--
   set statusline += %{fugitive#statusline()}
