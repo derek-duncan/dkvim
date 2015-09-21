@@ -1,6 +1,6 @@
 "Formatting options
   "Set up colorscheme
-    colorscheme hybrid
+    colorscheme hybrid_material
     set background=dark
     set guifont=Inconsolata:h18
   set ignorecase
