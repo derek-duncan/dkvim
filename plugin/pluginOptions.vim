@@ -1,5 +1,7 @@
 filetype plugin on
 
+"--Delimit Mate--
+  let g:delimitMate_expand_cr=1
 "--Easymotion--
   "Remove the default mappings
   let g:EasyMotion_do_mapping = 0
