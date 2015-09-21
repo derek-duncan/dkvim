@@ -34,3 +34,6 @@ filetype plugin on
   let g:syntastic_check_on_wq = 1
   let g:syntastic_error_symbol = "✗"
   let g:syntastic_warning_symbol = "⚠"
+
+"--Fugitive--
+  set statusline += %{fugitive#statusline()}
