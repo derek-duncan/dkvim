@@ -6,7 +6,7 @@
   set ignorecase
   set smartcase
   set cursorline
-  set linespace=3
+  set linespace=4
   set number
   "Indentation
     "tabstops and shiftwidth
