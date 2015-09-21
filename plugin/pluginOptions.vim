@@ -37,7 +37,7 @@ filetype plugin on
   let g:syntastic_check_on_wq = 1
   let g:syntastic_error_symbol = "✗"
   let g:syntastic_warning_symbol = "⚠"
-  let g:syntastic_javascript_checkers = ['jsxhint']
+  let g:syntastic_javascript_checkers = ['eslint']
 
 "--Fugitive--
   set statusline += %{fugitive#statusline()}
