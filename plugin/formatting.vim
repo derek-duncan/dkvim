@@ -2,7 +2,7 @@
   "Set up colorscheme
     colorscheme hybrid_material
     set background=dark
-    set guifont=Inconsolata:h18
+    set guifont=Roboto_Mono:h18
   set ignorecase
   set smartcase
   set cursorline
