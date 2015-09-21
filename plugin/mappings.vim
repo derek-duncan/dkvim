@@ -40,9 +40,6 @@ augroup mappings
   "Quick Write
     nnoremap <leader><leader> :wa<CR>
 
-  "Change dir to this file's
-    nnoremap <leader>cdf :Proj %:h<CR>
-
   "NerdTree Open
     nnoremap <leader>nt :NERDTree<CR>
 
@@ -59,4 +56,7 @@ augroup mappings
   "Short insert mode movements
     imap <C-h> <Left>
     imap <C-l> <Right>
+
+  "Change TComment to use Command+/
+    map <D-/> :TComment<cr>
 augroup END
