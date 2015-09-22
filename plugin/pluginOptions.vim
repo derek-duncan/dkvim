@@ -23,7 +23,7 @@ filetype plugin on
   augroup END
 
 "--NerdCommenter--
-  let g:NERDCustomDelimiters = { 'sass': 'left': '/*', 'right': '*/' }
+  let g:NERDCustomDelimiters = { 'sass': { 'left': '/*', 'right': '*/' } }
   let g:NERDSpaceDelims = 1
   let g:NERD_sass_alt_style = 1
 
