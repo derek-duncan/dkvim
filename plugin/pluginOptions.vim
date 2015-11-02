@@ -50,4 +50,4 @@ filetype plugin on
   let g:syntastic_css_checkers = ['stylelint']
 
 "--Fugitive--
-  set statusline += %{fugitive#statusline()}
+  " set statusline += %{fugitive#statusline()}
