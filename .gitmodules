@@ -52,3 +52,6 @@
 [submodule "bundle/vim-hybrid-material"]
 	path = bundle/vim-hybrid-material
 	url = https://github.com/kristijanhusak/vim-hybrid-material
+[submodule "bundle/taboo.vim"]
+	path = bundle/taboo.vim
+	url = https://github.com/gcmt/taboo.vim.git
