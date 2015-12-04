@@ -2,7 +2,7 @@
   "Set up colorscheme
     colorscheme hybrid_material
     set background=dark
-    set guifont=Hack:h16
+    set guifont=Hack:h14
   set ignorecase
   set smartcase
   set cursorline

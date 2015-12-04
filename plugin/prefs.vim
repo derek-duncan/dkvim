@@ -58,4 +58,7 @@
   set backspace=start,eol
 
 "Enable the mouse
-    set mouse=a
+  set mouse=a
+
+"Enable Tabnames in session
+  set sessionoptions+=tabpages,globals
