@@ -1,6 +1,6 @@
 "Some preferences
   set laststatus=2
-  set statusline=%{getcwd()}\ \ \ \ \ %t[%{strlen(&fenc)?&fenc:'none'},%{&ff}]%h%m%r%y%=%c,%l/%L\ %P
+  set statusline=%F\ \ \ \ \ %t[%{strlen(&fenc)?&fenc:'none'},%{&ff}]%h%m%r%y%=%c,%l/%L\ %P
 
 "Autoread changes into buffer
   set autoread
