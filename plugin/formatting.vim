@@ -29,8 +29,3 @@
 "Indentation
   set autoindent
   filetype indent on
-
-"Theming
-  hi TabLine guifg=#263238 guibg=#48545B
-  hi TabLineFill guifg=#263238 guibg=#263238
-  hi TabLineSel guifg=#cccccc guibg=#263238

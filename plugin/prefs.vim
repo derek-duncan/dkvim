@@ -1,6 +1,7 @@
 "Some preferences
   set laststatus=2
   set statusline=%F\ \ \ \ \ %t[%{strlen(&fenc)?&fenc:'none'},%{&ff}]%h%m%r%y%=%c,%l/%L\ %P
+  set tabline=%!CustomTabLine()
 
 "Autoread changes into buffer
   set autoread
@@ -46,13 +47,13 @@
   set hidden
 
 "Fold Colors
-  :hi Folded ctermbg=none
-  :hi Folded ctermfg=7
+  hi Folded ctermbg=none
+  hi Folded ctermfg=7
 
 "Tab Colors
-  :hi TabLineFill ctermbg=black ctermfg=black
-  :hi TabLineSel ctermbg=black ctermfg=white
-  :hi TabLine term=bold ctermbg=black ctermfg=darkblue
+  hi TabLine guifg=#263238 guibg=#48545B
+  hi TabLineFill guifg=#263238 guibg=#263238
+  hi TabLineSel guifg=#cccccc guibg=#263238
 
 "Allow backspacing over stuff
   set backspace=start,eol
