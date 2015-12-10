@@ -7,3 +7,6 @@
 
 "Make postcss files work with sass
   autocmd BufRead,BufNewFile *.pcss set filetype=sass
+
+"A better command for :silent
+command! -nargs=1 Silent | execute ':silent !'.<q-args> | execute ':redraw!'
