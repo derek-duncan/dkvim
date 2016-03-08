@@ -6,8 +6,8 @@ augroup mappings
     map <leader>r :NERDTreeFind<cr>
 
   "Move lines up or down
-    nnoremap <C-S-j> :m .+1<CR>
     nnoremap <C-S-k> :m .-2<CR>
+    nnoremap <C-S-j> :m .+1<CR>
     inoremap <C-S-j> <Esc>:m .+1<CR>==gi
     inoremap <C-S-k> <Esc>:m .-2<CR>==gi
     vnoremap <C-S-j> :m '>+1<CR>gv=gv

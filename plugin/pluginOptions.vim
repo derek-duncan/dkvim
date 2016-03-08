@@ -2,8 +2,6 @@
 "Download MacVim
 "To install the linter, run `npm install -g eslint-plugin-react eslint babel-eslint`
 
-filetype plugin on
-
 "--Delimit Mate--
   let g:delimitMate_expand_cr=1
 
@@ -46,8 +44,25 @@ filetype plugin on
   let g:syntastic_check_on_wq = 1
   let g:syntastic_error_symbol = "✗"
   let g:syntastic_warning_symbol = "⚠"
-  let g:syntastic_javascript_checkers = ['jshint']
+  let g:syntastic_javascript_checkers = ['eslint']
   " let g:syntastic_sass_checkers = ['stylelint']
 
 "--Fugitive--
   " set statusline += %{fugitive#statusline()}
+
+" make YCM compatible with UltiSnips (using supertab)
+let g:ycm_complete_in_comments = 1
+let g:ycm_seed_identifiers_with_syntax = 1
+let g:ycm_collect_identifiers_from_comments_and_strings = 1
+let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']
+let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
+let g:SuperTabDefaultCompletionType = '<C-n>'
+
+" better key bindings for UltiSnipsExpandTrigger
+let g:UltiSnipsExpandTrigger = '<tab>'
+let g:UltiSnipsJumpForwardTrigger = '<tab>'
+let g:UltiSnipsJumpBackwardTrigger = '<s-tab>'
+let g:UltiSnipsSnippetsDir = '/Users/Derek/vim/bundle/vim-snippets/UltiSnips'
+
+" ConqueTerm
+let g:ConqueTerm_ReadUnfocused = 1

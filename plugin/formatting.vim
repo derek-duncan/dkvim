@@ -6,7 +6,7 @@
   set ignorecase
   set smartcase
   set cursorline
-  set linespace=7
+  set linespace=9
   set number
   "Indentation
     "tabstops and shiftwidth
@@ -21,11 +21,11 @@
 "GUI options
   set encoding=utf-8
   syntax on
-  filetype on
   set guioptions-=T " Removes top toolbar
   set guioptions-=r " Removes right hand scroll bar
   set guioptions-=e " Removes system tabbar
   set go-=L " Removes left hand scroll bar
 "Indentation
   set autoindent
-  filetype indent on
+"Filetype
+  filetype plugin indent on
