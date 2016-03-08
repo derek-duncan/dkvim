@@ -66,3 +66,6 @@ let g:UltiSnipsSnippetsDir = '/Users/Derek/vim/bundle/vim-snippets/UltiSnips'
 
 " ConqueTerm
 let g:ConqueTerm_ReadUnfocused = 1
+
+" Gruvbox theme
+let g:gruvbox_contrast_dark = 'soft'

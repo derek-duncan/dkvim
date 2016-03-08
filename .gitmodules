@@ -86,6 +86,6 @@
 [submodule "bundle/supertab"]
 	path = bundle/supertab
 	url = https://github.com/ervandew/supertab
-[submodule "bundle/gruvbox.wiki"]
-	path = bundle/gruvbox.wiki
-	url = https://github.com/morhetz/gruvbox.wiki.git
+[submodule "bundle/gruvbox"]
+	path = bundle/gruvbox
+	url = https://github.com/morhetz/gruvbox

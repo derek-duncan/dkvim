@@ -1,8 +1,9 @@
 "Formatting options
   "Set up colorscheme
-    colorscheme hybrid_material
-    set background=dark
-    set guifont=Hack:h14
+  colorscheme gruvbox
+  set background=dark
+  set guifont=Hack:h14
+
   set ignorecase
   set smartcase
   set cursorline
