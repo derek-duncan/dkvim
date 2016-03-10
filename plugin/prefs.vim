@@ -52,9 +52,9 @@
   hi Folded ctermfg=7
 
 "Tab Colors
-  hi TabLine guifg=#263238 guibg=#48545B
-  hi TabLineFill guifg=#263238 guibg=#263238
-  hi TabLineSel guifg=#cccccc guibg=#263238
+"   hi TabLine guifg=#263238 guibg=#48545B
+"   hi TabLineFill guifg=#263238 guibg=#263238
+"   hi TabLineSel guifg=#cccccc guibg=#263238
 
 "Allow backspacing over stuff
   set backspace=start,eol
