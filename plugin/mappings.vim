@@ -38,7 +38,7 @@ augroup mappings
     nnoremap <leader>O O<Esc>j
 
   "Quick Write
-    nnoremap <leader><leader> :wa<CR>
+    nnoremap <leader><leader> :w<CR>
 
   "NerdTree Open
     nnoremap <leader>nt :NERDTree<CR>

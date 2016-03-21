@@ -45,7 +45,7 @@
   let g:syntastic_error_symbol = "✗"
   let g:syntastic_warning_symbol = "⚠"
   let g:syntastic_javascript_checkers = ['eslint']
-  " let g:syntastic_sass_checkers = ['stylelint']
+  let g:syntastic_sass_checkers = ['stylelint']
 
 "--Fugitive--
   " set statusline += %{fugitive#statusline()}

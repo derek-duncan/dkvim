@@ -1,6 +1,6 @@
 "Formatting options
   "Set up colorscheme
-  colorscheme gruvbox
+  colorscheme Tomorrow-Night-Eighties
   set background=dark
   set guifont=Hack:h14
 
