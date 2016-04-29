@@ -10,6 +10,7 @@
   set linespace=9
   set number
   "Indentation
+    set autoindent
     "tabstops and shiftwidth
       set ts=2
       set sw=2
@@ -26,7 +27,5 @@
   set guioptions-=r " Removes right hand scroll bar
   set guioptions-=e " Removes system tabbar
   set go-=L " Removes left hand scroll bar
-"Indentation
-  set autoindent
 "Filetype
   filetype plugin indent on
