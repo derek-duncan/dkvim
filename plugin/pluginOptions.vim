@@ -15,6 +15,7 @@
   let g:NERDTreeMapHelp="<leader>nth"
   let g:NERDTreeShowHidden=1
   let g:NERDTreeWinPos = "right"
+  let g:NERDTreeIgnore = ["\.DS_Store$", "files"]
   "Force relative line #'s in NERDTree
   augroup NERDTree
     autocmd FileType nerdtree set relativenumber

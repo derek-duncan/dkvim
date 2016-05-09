@@ -3,6 +3,7 @@
   colorscheme Tomorrow-Night-Eighties
   set background=dark
   set guifont=Hack:h14
+  set transparency=5
 
   set ignorecase
   set smartcase
@@ -19,6 +20,8 @@
     "expandtab
       "converts tabs to spaces
       set expandtab
+    "linewrap indicator
+      set colorcolumn=100
 
 "GUI options
   set encoding=utf-8
