@@ -3,7 +3,6 @@
   colorscheme Tomorrow-Night-Eighties
   set background=dark
   set guifont=Hack:h14
-  set transparency=5
 
   set ignorecase
   set smartcase
@@ -32,3 +31,5 @@
   set go-=L " Removes left hand scroll bar
 "Filetype
   filetype plugin indent on
+"Transparency
+  set transparency=5
