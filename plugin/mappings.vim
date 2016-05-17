@@ -2,6 +2,10 @@ augroup mappings
   "Set mapleader
     let mapleader="\<space>"
 
+  " Quickly edit/reload the vimrc file
+    nmap <silent> <leader>ev :e ~/vim/.vimrc<CR>
+    nmap <silent> <leader>sv :so $MYVIMRC<CR>
+
   "Set NT to current file dir
     map <leader>r :NERDTreeFind<cr>
 

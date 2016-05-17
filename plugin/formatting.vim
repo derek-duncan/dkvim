@@ -2,18 +2,19 @@
   "Set up colorscheme
   colorscheme Tomorrow-Night-Eighties
   set background=dark
-  set guifont=Hack:h14
+  " set guifont=Hack:h16
+  " set guifont=SourceCodePro:h16
+  set guifont=InputMono:h16
 
   set ignorecase
   set smartcase
   set cursorline
-  set linespace=9
+  set linespace=10
   set number
   "Indentation
     set autoindent
     "tabstops and shiftwidth
-      set ts=2
-      set sw=2
+      set tabstop=2
       set shiftwidth=2
       set softtabstop=2
     "expandtab
