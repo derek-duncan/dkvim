@@ -4,7 +4,8 @@
   set background=dark
   " set guifont=Hack:h16
   " set guifont=SourceCodePro:h16
-  set guifont=InputMono:h16
+  " set guifont=InputMono:h16
+  set guifont=Fira\ Code:h16
 
   set ignorecase
   set smartcase
